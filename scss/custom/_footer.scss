@@ -1,0 +1,21 @@
+/* --------------------------------------------------------------------------------------
++
++ FOOTER
++
+-------------------------------------------------------------------------------------- */
+
+
+.footer-main {
+	background-color: #313133;
+	padding: 20px 0;
+	small {
+		color: #4d4e52;
+		text-transform: uppercase;
+		a {
+			color: #4d4e52!important;
+			&:hover {
+				color: #fff!important;
+			}
+		}
+	}
+} 

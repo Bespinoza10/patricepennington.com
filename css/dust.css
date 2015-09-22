@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+
+
+.team-section .background-life {
+  background-image: url('../I/life_hack.png');
+  background-repeat: no-repeat;
+/*   background-position: 70% 70% 70%; */
+  background-size: 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -ms-behavior: url(../js/backgroundsize.htc);
+  padding: 115px 0;
+  position: relative;
+
+}
+
+
+.team-section .background-pov {
+  background-image: url('../I/mypovBack.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -ms-behavior: url(../js/backgroundsize.htc);
+  padding: 120px 0;
+  position: relative;
+
+}
+
+
+.team-section .background-mindset {
+  background-image: url('../I/mindset.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -ms-behavior: url(../js/backgroundsize.htc);
+  padding: 120px 0;
+  position: relative;
+
+}
+
+
+.team-section .background-finance {
+  background-image: url('../I/financiallyHealthy_long.png');
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -ms-behavior: url(../js/backgroundsize.htc);
+  padding: 130px 0;
+  position: relative;
+
+
+}
+
+
+.mindBtn{
+  height: 51px;
+  line-height: 51px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #0f122f !important;
+}
+
+.financeBtn{
+  height: 51px;
+  line-height: 51px;
+  border: 1px solid #2dc028;
+  background-color: transparent;
+  color: #0f122f !important;
+}
+
+
+.povBtn{
+  height: 51px;
+  line-height: 51px;
+  border: 1px solid black;
+  background-color: transparent;
+  color: #0f122f !important;
+}
+
+.logo1{
+  width: 100px;
+  height: 100px;
+  margin-top: -20px;
+}
+
+
+/******************************************
+************** GENERAL CSS ****************
+******************************************/
+
+
+.cursivo{
+  font-family: 'Great Vibes', cursive;
+}
+
+.squares{
+  padding-bottom: 20px;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.to_user1{
+  color:#fd6c25;
+}
+
+
+.to_user{
+  color:#fd6c25;
+}
+
+.to_user:hover{
+  font-size: 30px;
+  color: #fd6c25;
+}
+
+.to_user1:hover{
+  font-size: 80px;
+  color: #fd6c25;
+}
+
+.barras{
+  color: #000;
+}
+
+
+
+
+/******************************************
+************** blogging_tips_page *********
+******************************************/
+
+
+
+.white-gray{
+  color: #ffffff;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.subsText{
+  font-size: 25px;
+  font-weight: 300;
+  color:#fff;
+  line-height: 35px;
+  text-align: left;
+}
+
+.subs{
+  color: #e14d4d;
+}
+
+
+
+.center-block {
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/******************************************
+************** life_guidance_page *********
+******************************************/
+
+
+
+
+
+/******************************************
+************** Media Queries ****************
+******************************************/
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+
+
+			#welcome_sect{
+			display:none;
+			}
+
+
+
+}
+
+@media screen and (max-width:600px){
+  #ellogo{
+     width: 250px;
+  }
+
+}

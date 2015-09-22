@@ -1,0 +1,14 @@
+
+.team-section .background-blog {
+  background-image: url('../I/marketing_terrence.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -ms-behavior: url(../js/backgroundsize.htc);
+  padding: 120px 0;
+  position: relative;
+
+}
